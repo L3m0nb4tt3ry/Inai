@@ -1,9 +1,13 @@
 # to include all the templates
 include:
   - template: Container/Container-Scanning.gitlab-ci.yml
+  - template: ThreatModeling/ThreatModeling.gitlab-ci.yml
+  - template: Acceptance/SecurityAcceptance.gitlab-ci.yml
+  - template: SecurityUnitTest/SecurityUnitTest.gitlab-ci.yml
   - template: DAST/DAST.gitlab-ci.yml
   - template: Dependency/Dependency-Scanning.gitlab-ci.yml
-  - template: Compliance/License-Scanning.gitlab-ci.yml
+  - template: Compliance/Compliance-Scanning.gitlab-ci.yml
   - template: SAST/SAST.gitlab-ci.yml
   - template: Fuzzing/Fuzzing.gitlab-ci.yml
   - template: Ondemand/OnDemand.gitlab-ci.yml
+  - template: ConfigurationReview/ConfigurationReview.gitlab-ci.yml
