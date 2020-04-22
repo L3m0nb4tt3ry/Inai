@@ -1,0 +1,2 @@
+# Inai
+Inai is the first of the celestials, representing the void. He is one of the Hidden Ones, and resides in the Hidden Temple, only emerging to take part in the battle of the Ancients on the mortal plane. Still, he is able to create tears in the Astral Plane, allowing him to traverse through and damage everything in his path. He instructs others, such as Lanaya, to do his bidding, all while remaining hidden to all but a few. Now that he has stepped into the mortal realm, Inai seeks to unite with all the other celestials in an event he calls the Great Confluence.
