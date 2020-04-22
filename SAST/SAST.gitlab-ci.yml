@@ -3,13 +3,11 @@
 # Tool can be configured using environment variable but as of now only one tool is configured
 
 sast:
-  stage: test
-  image: docker:stable
-  variables:
-    DOCKER_DRIVER: overlay2
+#  stage: test
+#  image: docker:stable
+#  variables:
+#    XYZ: xyz
   allow_failure: true
-  services:
-    - docker:stable-dind
   script:
       docker run -v /$(pwd):/src opensecurity/nodejsscan:cli -d /src -o /src/results.json
   artifacts:
